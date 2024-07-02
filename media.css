@@ -71,7 +71,15 @@
    
 }
 
+.depoimentos{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
 
+.hidden > img{
+    width: 180px;
+}
 
 .whatsapp-img{
     display: flex;
