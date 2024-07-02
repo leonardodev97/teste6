@@ -1,0 +1,88 @@
+@media(max-width:992px){
+    .father{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .search, .explication{
+        width: 300px;
+        padding-left: 10px;
+    }
+
+    .p-quem-sou{
+        margin-top: 50px;
+        padding-left: 10px;
+    }
+
+}
+
+@media (max-width:768px){
+    .father{
+        display: flex;
+       
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .search, .explication{
+        width: 300px;
+    }
+
+    .son{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        align-items: center;
+    }    
+
+}
+
+
+@media (max-width:600px){
+    .father{
+        display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+       gap: 20px;
+    }
+
+    .search, .explication{
+        width: 100%;
+    }
+
+    .p-quem-sou{
+        margin-top: 50px;
+    }
+
+   .beneficios{
+     text-align: center;
+   }
+
+   .explication > h1{
+    font-size: 18px;
+   }
+
+   .search > h1{
+    font-size: 18px;
+   }
+   
+}
+
+
+
+.whatsapp-img{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10px;
+    position: fixed;
+    top: 80%;
+    left: 93%; 
+}
+
+.whats{
+    border: 0px;
+}

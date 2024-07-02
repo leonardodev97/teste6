@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #C8B989;
+    font-family: "Varela Round", sans-serif;
+    
+}
+
+.father{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.explication{
+    color: #C8B989;
+    width: 300px;
+    border: 1px solid rgba(128, 128, 128, 0.637);
+    border-radius: 10px;
+    background-color: #403B39;
+}
+
+.search{
+    color: #C8B989;
+    width: 300px;
+    border: 1px solid rgba(128, 128, 128, 0.637);
+    border-radius: 10px;
+    background-color: #403B39;
+}
+
+.son{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 5px;
+}
+
+.tratamento > p{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.beneficios{
+    width: 300px;
+    color:#403B39;
+    text-align: center;
+}
+
+
+.atendimento{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #403B39;
+    color: #C8B989;
+}
+
+.filho{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn-whats{
+    border: 1px solid #C8B989;
+    text-align: center;
+    color: #C8B989;
+    text-decoration: none; 
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px; 
+    margin-bottom: 50px;
+}
+
+.btn-whats:hover{
+    background-color: #C8B989;
+    color: #403B39;
+    border: 1px solid #403B39;
+}
+
+.quem-sou{
+    color: #403B39;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.txt{
+    width: 300px;
+}
+
+.depoimentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
